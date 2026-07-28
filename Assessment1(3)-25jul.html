@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<form>
+<table>
+<tr>
+	<td>Name</td>
+	<td><input type="text" placeholder="Enter your Name" required/></td>
+</tr>
+<tr>
+	<td>Age</td>
+	<td><input type="number" placeholder="Enter your age" /></td>
+</tr>
+<tr>
+	<td>Contact Number</td>
+	<td><input type="number" pattern="[0-9]{10}" required/></td>
+</tr>
+<tr>
+	<td>degree</td>
+	<td><input type="radio" name="degree" value="BE"/>BE
+	<input type="radio" name="degree" value="B.Tech"/>B.Tech</td>
+
+</tr>
+<tr>
+	<td>Department</td>
+	<td><input type="checkbox" name="dept" value="CSE"/>BE
+	<input type="checkbox" name="dept" value="IT"/>B.Tech
+	<input type="checkbox" name="dept" value="BME"/>BME
+	<input type="checkbox" name="dept" value="Civil"/>Civil</td>
+
+</tr>
+<tr>
+	<td>Resume</td>
+	<td><input type="file" accept=".pdf" required/></td>
+</tr>
+<tr>
+	<td>Comments</td>
+	<td><textarea cols="20" rows="5"></textarea>
+</tr>
+<tr>
+<td rowspan="2"><button>Submit</button><button>Reset</button></td>
+</tr>
+
+
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    background-color:darkmagenta;
+    color:black
+}
+p{
+    color:azure;
+    font-family:sans-serif New', Courier, monospace;
+}
+ul{
+    color:azure;
+    font-family:sans-serif New', Courier, monospace;
+    style-type:square;
+}
+#value1{
+    color:azure;
+    font-family:sans-serif New', Courier, monospace;
+    background-color:blue;
+}

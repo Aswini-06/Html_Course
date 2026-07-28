@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form>
+<table>
+<tr>
+ 	<td><label>Name</label></td>
+        <td><input type="text" placeholder="Enter your Name" required/></td>
+</tr>
+<tr>
+	<td><label>age</label></td>
+        <td><input type="number"/></td>
+</tr>
+<tr>
+	<td><label>Date Of Birth</label></td>
+        <td><input type="date"/></td>
+</tr>
+<tr>
+	<td><label>Gender</label></td>
+        <td><input type="radio" name="gender" value="male"/>male
+        <input type="radio" name="gender" value="female"/>female
+        <input type="radio" name="gender" value="others"/>others</td>
+</tr>
+<tr>
+	 <td><label>Languages</label></td>
+       <td><input type="checkbox" name="language" value="tamil"/>Tamil
+        <input type="checkbox" name="language" value="English"/>English
+        <input type="checkbox" name="language" value="Hindi"/>Hindi</td>
+</tr>
+<tr>
+	<td><label>Country</label></td>
+           <td> <select>
+
+                <option name="country" value="India">India</option>
+                <option name="country" value="USA">USA</option>
+                <option name="country" value="UK">UK</option>
+                <option name="country" value="Canada">Canada</option>
+                <option name="country" value="Australia">Australia</option>
+                <option name="country" value="south Korea">South Korea</option>
+            </select></td>
+</tr>
+<tr>
+	<td><label>mobile Number</label></td>
+        <td><input type="tel " pattern="[0-9]{10}" required/></td>
+</tr>
+<tr>
+	<td><label>resume</label></td>
+        <td><input type="file" accept=".pdf" size="300kb" required/></td>
+</tr>
+<tr>
+	<td rowspan="2"><button type="reset">Reset</button><button type="submit">Submit</button></td>
+        
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+#val_1{
+    background-color: aqua;
+    color:rgb(172, 18, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+p{
+    background-color: red;
+    color:white(172, 18, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+ 
+}
+.test{
+    background-color: brown;
+}
+p,#val_1,.test{
+    background-color:blueviolet;
+    font-size: x-small;
+    font-display: block;
+    font-weight: bold;
+    border-left: 4px solid #e74c3c;
+    padding-left: 10px;
+
+}
+*{
+     background-color:blueviolet;
+    font-size: x-small;
+    font-display: block;
+    font-weight: bold;
+    border-left: 4px solid #e74c3c;
+    padding-left: 10px;
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollo Hospitals</title>
+</head>
+<body>
+    <h3>Patient Registration Form</h3>
+    <form>
+        <table>
+            <tr>
+                <td><label>Patient Name</label></td>
+                <td><input type="text" placeholder="Enter the Patient Name" required/></td>
+        </tr>
+        <tr>
+            <td><label>Age</label></td>
+            <td><input type="number" placeholder="Enter the Patient Age"/></td>
+        </tr>
+        <tr>
+            <td><label>Phone Number</label></td>
+            <td><input type="number" placeholder="Enter your phone Number" pattern="[0-9]{10}" required/></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td><select>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="others">Other</option>  
+        </select></td>
+        <tr>
+            <td><label>Appointment Date</label></td>
+            <td><input type="date" placeholder="Enter Appointment Date"/></td>
+        </tr>
+        <tr>
+            <td><label>Medical Specialists</label></td>
+            <td>
+                <select>
+                    <option>General Checkup</option>
+                    <option>Cardiologists</option>
+                    <option>Dermatologists</option>
+                    <option>Neurologists</option>
+                    <option>Obstetrician-Gynecologists</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input type="email" placeholder="Enter your Email"/></td>
+        </tr>
+        <tr>
+            <td><label>Description of Problem</label></td>
+            <td><textarea cols="20" rows="8"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Doctors Contact Number</label></td>
+            <td><input type="number" placeholder="9841203872" readonly/></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><button>Submit</button><button>Reset</button></td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

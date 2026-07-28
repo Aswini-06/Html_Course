@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Name</label>
+        <input type="text"/><br>
+        <label>age</label>
+        <input type="number"/><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male"/>male
+        <input type="radio" name="gender" value="female"/>female
+        <input type="radio" name="gender" value="others"/>others<br>
+        <label>Languages</label>
+        <input type="checkbox" name="language" value="tamil"/>Tamil
+        <input type="checkbox" name="language" value="English"/>English
+        <input type="checkbox" name="language" value="Hindi"/>Hindi
+        <br>
+        <label>Password</label>
+        <input type="password"/>
+        <br>
+        <label>Joining Date</label>
+        <input Type="date"/>
+        <br>
+        <label>E-mail</label>
+        <input type="email"/>
+        <br>
+        <label>address</label>
+        <textarea rows="10" cols="20"></textarea>
+        <br>
+        <label>
+            <select>
+
+                <option name="country" value="India">India</option>
+                <option name="country" value="USA">USA</option>
+                <option name="country" value="UK">UK</option>
+                <option name="country" value="Canada">Canada</option>
+                <option name="country" value="Australia">Australia</option>
+                <option name="country" value="south Korea">South Korea</option>
+            </select>
+        </label>
+        <br>
+        <label>resume</label>
+        <input type="file" accept=".pdf" size="300kb" required/>
+        <br>
+        <input type="submit"/>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form><br>
+</body>
+<body>
+    <form>
+        <label>Student's Name</label>
+        <input type="text" placeholder="Enter your Name" required/><br>
+        <label>Age</label>
+        <input type="number" min="18" max="20"/><br>
+        <label>Date Of Birth</label>
+        <input type="date"/><br>
+        <label>mobile Number</label>
+        <input type="tel " pattern="[0-9]{10}" required/>
+        <label>password</label>
+        <input type="Password" minlength="6" maxlength="16" required/><br>
+        <label>Country</label>
+        <input type="text" placeholder="Enter your Country" readonly/><br>
+         <input type="text" placeholder="Enter your Country" disabled/><br>
+
+        <input type="reset"/>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
